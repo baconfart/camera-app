@@ -14,15 +14,16 @@
 
 		<!-- Camera -->
 		<main id="camera">
-
-		    <!-- Camera sensor -->
-		    <canvas id="camera--sensor"></canvas>
 		    
 		    <!-- Camera view -->
 		    <video id="camera--view" autoplay playsinline></video>
-		    
-		    <!-- Camera output -->
-		    <img src="//:0" alt="" id="camera--output">
+
+		    <div id="switch">
+		    	<button id="getCamera">Get camera</button>
+	      		<select id="select">
+	        		<option></option>
+	      		</select>
+      		</div>
 
 		    <!-- Camera trigger -->
 		    <button id="camera--trigger"></button>
@@ -45,9 +46,6 @@
 		</main>
 
 		<!-- Reference to your JavaScript file -->
-		<script src="app.js"></script> 
-		<script src= 
-"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
-  </script>
+		<script src="app.js"></script>
 	</body>
 </html>
